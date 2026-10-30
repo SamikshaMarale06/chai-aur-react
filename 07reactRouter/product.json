@@ -1,0 +1,89 @@
+[
+  {
+    "id": "decor-01-flower-pot",
+    "name": "Flower Pot",
+    "price": 500,
+    "description": "Handcrafted terracotta flower pot with a minimalist matte finish.",
+    "link": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/decor-01-flower-pot.jpg",
+    "updatedAt": "2026-10-30T08:22:14.176Z",
+    "category": "Home Decor & Plants"
+  },
+  {
+    "id": "decor-03-decorative-vase",
+    "name": "Decorative Ceramic Vase",
+    "price": 1450,
+    "description": "Sculptural ceramic vase with an organic curved silhouettes.",
+    "link": "https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/decor-03-vase-styled.jpg"
+  },
+  {
+    "id": "decor-04-table-lamp",
+    "name": "Table Lamp",
+    "price": 1080,
+    "description": "Warm ambient bedside lamp featuring a pleated linen shade.",
+    "link": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/decor-04-table-lamp.jpg",
+    "category": "Home Decor & Plants",
+    "updatedAt": "2026-10-30T08:16:12.103Z"
+  },
+  {
+    "id": "ceramic-01-mug",
+    "name": "Handmade Ceramic Mug",
+    "price": 550,
+    "description": "Artisan wheel-thrown stoneware coffee mug.",
+    "link": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/ceramic-01-white-mug.jpg"
+  },
+  {
+    "id": "ceramic-02-dinner-plate-set",
+    "name": "Ceramic Dinner Plate Set",
+    "price": 2899,
+    "description": "Handcrafted set of 4 matte ceramic dinner plates.",
+    "link": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/ceramic-02-dinnerware.jpg"
+  },
+  {
+    "id": "ceramic-04-minimal-vase",
+    "name": "Minimal Ceramic Vase",
+    "price": 999,
+    "description": "Sleek off-white architectural ceramic bud vase.",
+    "link": "https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/ceramic-04-minimal-vase.jpg"
+  },
+  {
+    "id": "ceramic-05-planter",
+    "name": "Ceramic Planter",
+    "price": 1250,
+    "description": "Textured ribbed ceramic planter with a warm beige glaze.",
+    "link": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/ceramic-05-planter.jpg"
+  },
+  {
+    "id": "elec-02-laptop",
+    "name": "Laptop",
+    "price": 60000,
+    "description": "Ultra-slim lightweight aluminum laptop powered by a fast multi-core processor, vivid high-res Retina display, and 14-hour battery life.",
+    "link": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/elec-02-laptop.jpg",
+    "category": "Home Decor & Plants",
+    "updatedAt": "2026-10-30T08:06:41.141Z"
+  },
+  {
+    "id": "elec-04-smart-watch",
+    "name": "Smart Watch",
+    "price": 4599,
+    "description": "Modern fitness and lifestyle smartwatch featuring an always-on AMOLED touchscreen, heart rate tracking, and seamless smartphone sync.",
+    "link": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/elec-04-smart-watch.jpg"
+  },
+  {
+    "id": "dc078a62-e34c-4e30-84bb-3717e26a5c53",
+    "name": "Ceramic Bowl",
+    "link": "https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=800&q=80",
+    "description": "Multi-purpose artisan ceramic serving bowl with a gentle satin glaze.",
+    "price": 800,
+    "category": "Home Decor & Plants",
+    "createdAt": "2026-10-30T08:23:27.653Z"
+  }
+]

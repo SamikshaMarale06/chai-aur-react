@@ -1,0 +1,65 @@
+{
+  "generatedAt": "2026-10-30T12:40:00+05:30",
+  "generatedOnPlatform": "win32",
+  "projectType": "webapp",
+  "setup": [],
+  "assertions": [
+    {
+      "name": "production-build",
+      "kind": "process",
+      "command": "npm",
+      "args": ["run", "build"],
+      "verificationMethod": "exit-code",
+      "expected": "0",
+      "timeoutSeconds": 180
+    },
+    {
+      "name": "eslint-check",
+      "kind": "process",
+      "command": "npm",
+      "args": ["run", "lint"],
+      "verificationMethod": "exit-code",
+      "expected": "0",
+      "timeoutSeconds": 120
+    },
+    {
+      "name": "tests-pass",
+      "kind": "process",
+      "command": "npm",
+      "args": ["test"],
+      "verificationMethod": "test-results",
+      "expected": "0",
+      "timeoutSeconds": 180
+    },
+    {
+      "name": "home-route-serves",
+      "kind": "http-probe",
+      "startCommand": "npm",
+      "startArgs": ["run", "dev", "--", "--host", "127.0.0.1"],
+      "url": "http://127.0.0.1:5173/index.html",
+      "verificationMethod": "output-contains",
+      "expected": "Discover Amazing Products for Your Life",
+      "timeoutSeconds": 120
+    },
+    {
+      "name": "product-image-serves",
+      "kind": "http-probe",
+      "startCommand": "npm",
+      "startArgs": ["run", "dev", "--", "--host", "127.0.0.1"],
+      "url": "http://127.0.0.1:5173/images/decor-01-flower-pot.jpg",
+      "verificationMethod": "http-status",
+      "expected": "200",
+      "timeoutSeconds": 120
+    },
+    {
+      "name": "product-api-lists",
+      "kind": "http-probe",
+      "startCommand": "npm",
+      "startArgs": ["run", "server"],
+      "url": "http://127.0.0.1:3001/api/products",
+      "verificationMethod": "http-status",
+      "expected": "200",
+      "timeoutSeconds": 60
+    }
+  ]
+}

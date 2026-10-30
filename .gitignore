@@ -1,0 +1,16 @@
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build files
+dist/
+build/
+
+# Local environment
+12MegaBlog/.env
